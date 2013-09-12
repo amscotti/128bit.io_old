@@ -5,3 +5,8 @@ build:
     - script:
         name: jekyll build 
         code: bundle exec jekyll build
+deploy:
+    steps:
+        - script:
+            name: Deploy to S3
+            code: s3_website push
