@@ -9,4 +9,4 @@ deploy:
     steps:
         - script:
             name: Deploy to S3
-            code: s3_website push
+            code: bundle exec s3_website push
