@@ -4,7 +4,7 @@ title: Mastering Grails 101 by Berglund and McCullough
 tags: 
 - Grails
 - Groovy
-- O'Reilly
+- OReilly
 - Review
 author: Anthony Scotti
 email: anthony.m.scotti@gmail.com

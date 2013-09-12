@@ -3,7 +3,7 @@ layout: post
 title: Tom Hughes-Croucher's on Node.js Video
 tags: 
 - nodeJS
-- O'Reilly
+- OReilly
 - Opinion
 - Personal
 author: Anthony Scotti
