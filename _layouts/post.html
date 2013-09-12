@@ -29,13 +29,6 @@
                     <div class="entry">{{content}}</div>
                 </article>
             </div>
-            <div class="span12">
-                <p>Tags: 
-                {% for tag in page.tags %}
-                    <a href="/tag/{{ tag | slugize }}/">{{ tag }}</a>
-                {% endfor %}
-                </p>
-            </div>
         </div>
         <footer class="row-fluid">
             <div class="span12">
