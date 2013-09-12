@@ -1,0 +1,25 @@
+/* Auto-generated from style sheet href = web/dart_popcorn.css */
+/* DO NOT EDIT. */
+
+body {
+  background-color: #F8F8F8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+h1, p {
+  color: #333;
+}
+.bookmarks li {
+  font-size: 12px;
+  list-style-type: none;
+  white-space: nowrap;
+  padding-top: 10px;
+}
+.bookmarks li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+

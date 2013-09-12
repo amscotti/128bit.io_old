@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- This file was auto-generated from web/dart_popcorn.html. -->
+<html><head><style>template { display: none; }</style>
+    <meta charset="utf-8">
+    <title>Dart and Popcorn.js</title>
+    <link rel="stylesheet" href="dart_popcorn.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.css">
+</head>
+<body>
+<div class="Container">
+    <div class="row">
+        <div class="span12 offset6">
+            <h1>Dart and Popcorn.js</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span7">
+            <div class="well" id="video" style="width: 520px; height: 320px;"></div>
+        </div>
+        <div class="span5">
+            <div class="well">
+                <h4>
+                    <div id="footnotediv"></div>
+                </h4>
+            </div>
+            <div class="well">
+                <div><b></b></div>
+                <div class="progress">
+                    <div class="bar" style="width: {{progress}}%;"></div>
+                </div>
+                <br>
+
+                <p>Bookmarks:</p>
+                <ul class="bookmarks">
+                    <template></template>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="http://popcornjs.org/code/dist/popcorn-complete.min.js"></script>
+
+<script src="packages/browser/dart.js"></script>
+<script>
+    var _gaq = [
+        ['_setAccount', 'UA-16746023-1'],
+        ['_trackPageview']
+    ];
+    (function (d, t) {
+        var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g, s)
+    }(document, 'script'));
+</script>
+
+
+<script type="application/dart" src="dart_popcorn.html_bootstrap.dart"></script></body></html>
