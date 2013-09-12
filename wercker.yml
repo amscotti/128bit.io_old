@@ -1,0 +1,7 @@
+box: wercker/ruby
+build:
+  steps:
+    - bundle-install
+    - script:
+        name: jekyll build 
+        code: bundle exec jekyll build
