@@ -62,7 +62,7 @@ This lets you think about your application as data transformation steps.
 
 For a more details overview of the Elixir syntax checkout [Learn Elixir in Y minutes](http://learnxinyminutes.com/docs/elixir/)
 
-Elixir also comes with a tool that is a cross between Rack and NPM (from Ruby and NodeJS respectively), it's called [Mix](http://elixir-lang.org/getting_started/mix/1.html). Mix will bootstrap your application structure for you, and will handle dependency management. Elixir also comes with a built in test framework called [ExUnit](http://elixir-lang.org/getting_started/ex_unit/1.html) which Mix is able to run.
+Elixir also comes with a tool that is a cross between Rake and NPM (from Ruby and NodeJS respectively), it's called [Mix](http://elixir-lang.org/getting_started/mix/1.html). Mix will bootstrap your application structure for you, and will handle dependency management. Elixir also comes with a built in test framework called [ExUnit](http://elixir-lang.org/getting_started/ex_unit/1.html) which Mix is able to run.
 
 There is one thing that I can't find much information on, how someone can deploy Elixir, or best practices for running in production. This could be due to the fact that Elixir is still in development but I was able to find a [Heroku buildpack for Elixir](https://github.com/goshakkk/heroku-buildpack-elixir) to let you push Elixir web apps to Heroku. I'm sure as time goes by the Elixir team will work on this missing part of Elixir.
 
