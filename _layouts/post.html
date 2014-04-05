@@ -7,26 +7,54 @@
 <head>
     <meta charset="utf-8" />
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/stylesheets/main.css">
     <meta name="viewport" content="width=device-width" />
+
+    <meta name="author" content="Anthony Scotti">
+    <meta name="robots" content="index, follow">
+    <meta name="distribution" content="global">
+    <meta name="revisit-after" content="1 days">
+
+    <meta name="google-site-verification" content="32vzQ3Pur02j4fapY9LVy-ajR0yN5dG9WeVWNKn-qIA" />
+
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="128bit.io">
+    <meta property="og:title" content="{{page.title}}">
+    <meta property="og:url" content="http://128bit.io/{{page.url}}">
+    <meta property="article:published_time" content="{{page.date | date: '%Y-%m-%d'}}" />
+    <meta property="article:author" content="https://www.facebook.com/anthony.mac.scotti" />
+    <meta property="article:tag" content="article" />
+
+    <meta name="twitter:site" content="@amscotti">
+    <meta name="twitter:creator" content="@amscotti">
+    <meta name="twitter:domain" content="128bit.io">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="http://128bit.io/{{page.title}}">
+
     <title>{{page.title}}</title>
 </head>
 <body>
     <div class="container-narrow">
         <div class="row-fluid">
             <div class="span12">
-                <h1><a href="/">128-bit Studios</a></br><small>2^7 bits of goodness!</small></h1>
+                <h1><a href="/">128bit.io</a></br><small>2^7 bits of goodness!</small></h1>
             </div>
         </div>
         <hr />
         <div class="row-fluid">
             <div class="span12 content" role="content">
-                <article>
+                <article itemscope itemtype="http://schema.org/Article">
                     <header>
-                        <h2>{{ page.title }}</h2>
-                        <h6>By {{ page.author }} on <time pubdate datetime="{{page.date | date: '%Y-%m-%d'}}">{{page.date | date_to_string}}</time></h6>
+                        <h2 itemprop="name">{{ page.title }}</h2>
+                        <h6>By
+                          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            <span itemprop="name">{{ page.author }}</span>
+                          </span>
+                          on
+                          <time itemprop="datePublished" content="{{page.date | date: '%Y-%m-%d'}}" pubdate datetime="{{page.date | date: '%Y-%m-%d'}}">{{page.date | date_to_string}}</time></h6>
                     </header>
-                    <div class="entry">{{content}}</div>
+                    <div itemprop="articleBody" class="entry">{{content}}</div>
                 </article>
             </div>
         </div>
@@ -35,7 +63,14 @@
                 <hr />
                 <div class="row-fluid">
                     <div class="span6">
-                        <p>&copy; Anthony Scotti 2013</p>
+                        <div id="icons">
+                            <a href="https://github.com/amscotti"><i class="icon-github-sign icon-2x"></i></a>
+                            <a href="https://twitter.com/amscotti"><i class="icon-twitter-sign icon-2x"></i></a>
+                            <a href="https://plus.google.com/104990874528544959615?rel=author"><i class="icon-google-plus-sign icon-2x"></i></a>
+                            <a href="https://www.linkedin.com/in/amscotti"><i class="icon-linkedin-sign icon-2x"></i></a>
+                            <a href="feed.xml"><i class="icon-rss-sign icon-2x"></i></a>
+                        </div>
+                        <!-- <p>&copy; Anthony Scotti 2014</p> -->
                     </div>
                 </div>
             </div>

@@ -10,14 +10,34 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/stylesheets/main.css">
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
+
     <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="Anthony Scotti">
+    <meta name="robots" content="index, follow">
+    <meta name="distribution" content="global">
+    <meta name="revisit-after" content="1 days">
+
+    <meta name="google-site-verification" content="32vzQ3Pur02j4fapY9LVy-ajR0yN5dG9WeVWNKn-qIA" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="128bit.io">
+    <meta property="og:title" content="128bit.io - 2^7 bits of goodness!">
+    <meta property="og:url" content="http://128bit.io">
+    <meta property="og:image" content="http://128bit.io/images/self_bw.png">
+
+    <meta name="twitter:site" content="@amscotti">
+    <meta name="twitter:creator" content="@amscotti">
+    <meta name="twitter:domain" content="128bit.io">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="128bit.io - 2^7 bits of goodness!">
+    <meta name="twitter:image:src" content="http://128bit.io/images/self_bw.png">
     <title>{{page.title}}</title>
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="span10">
-                <h1 class="muted"><a href="/">128-bit Studios</a></br><small>2^7 bits of goodness!</small></h1>
+                <h1 class="muted"><a href="/">128bit.io</a></br><small>2^7 bits of goodness!</small></h1>
             </div>
         </div>
         <hr />
@@ -26,17 +46,20 @@
                 <img class="self" src="/images/self_bw.png" alt="self" height="200" width="200">
                 <div class="widget-content">
                     <div><b>Anthony Scotti</b></div>
-                    <div><i>Senior Software Developer</i></div>
+                    <div><i>Software Engineer</i></div>
+                    <div>@ <a href="http://coeverywhere.com">CO Everywhere</a></div>
                     <div id="icons">
                         <a href="https://github.com/amscotti"><i class="icon-github-sign icon-2x"></i></a>
                         <a href="https://twitter.com/amscotti"><i class="icon-twitter-sign icon-2x"></i></a>
-                        <a href="https://plus.google.com/104990874528544959615"><i class="icon-google-plus-sign icon-2x"></i></a>
+                        <a href="https://plus.google.com/104990874528544959615?rel=author"><i class="icon-google-plus-sign icon-2x"></i></a>
                         <a href="https://www.linkedin.com/in/amscotti"><i class="icon-linkedin-sign icon-2x"></i></a>
                         <a href="feed.xml"><i class="icon-rss-sign icon-2x"></i></a>
                     </div>
+                    <!--
                     <div id="homepage">
                         <a href="http://amscotti.com"><i class="icon-cloud"></i> amscotti.com</a>
                     </div>
+                    -->
                 </div>
                 <hr>
                 <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" title="JavaScript String concat">
@@ -48,7 +71,7 @@
 
                 {% if paginator %}
                 <div class="row">
-                    <div class="span9">  
+                    <div class="span9">
                         <div class="pagination">
                             {% if paginator.previous_page %}
                                 {% if paginator.previous_page == 1 %}
@@ -63,9 +86,9 @@
                             {% if paginator.next_page %}
                             <a href="/page{{paginator.next_page}}" class="next ">Next</a>
                             {% else %}
-                            <span class="next ">Next</span>
+                            <span class="next">Next</span>
                             {% endif %}
-                        </div>                
+                        </div>
                     </div>
                 </div>
                 {% endif %}
@@ -76,11 +99,9 @@
                 <hr />
                 <div class="row">
                     <div class="span6">
-                        <p>&copy; Anthony Scotti 2013</p>
+                        <!-- <p>&copy; Anthony Scotti 2014</p> -->
                     </div>
-                    <div class="span6">
-                        <a href="https://app.wercker.com/project/bykey/4f4a559bb65e568f166238720059302d"><img alt="Wercker status" src="https://app.wercker.com/status/4f4a559bb65e568f166238720059302d"></a>
-                    </div>
+                    <div class="span6"></div>
                 </div>
             </div>
         </footer>
