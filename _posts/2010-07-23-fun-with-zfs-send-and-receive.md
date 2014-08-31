@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: Fun with ZFS send and receive
-tags: 
+tags:
 - FreeBSD
 - Howto
 - Opensolaris
@@ -25,7 +25,7 @@ You are able to output a filesystem to a file just by directing the output of 'z
 
 <pre>zfs send mybook/testzone@20100719-1600 > /storage/temp/testzone</pre>
 
-Now taking the same idea of output to a file, but it is now piped into gzip file to have it compress. Syntax is zfs send "snapshot name" | gzip &gt; "output path/filename" and an example
+Now taking the same idea of output to a file, but it is now piped into gzip file to have it compress.
 
 <pre>zfs send mybook/testzone@20100719-1600 | gzip &gt; /storage/temp/testzone.gz</pre>
 
