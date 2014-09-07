@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: Using Redis to sort World of Warcraft's Auction House data
-tags: 
+tags:
 - API
 - Howto
 - JSON
@@ -14,7 +14,7 @@ email: anthony.m.scotti@gmail.com
 ---
 If you have read some of my other postings you know by now that I enjoy using the data from World of Warcraft in my projects. In my mind it's a good amount of data that I can easily understand having played World of Warcraft for many years now. If you look at the [Blizzard Community Platform API Documentation](http://blizzard.github.com/api-wow-docs/#id3381986) you will see that there is an Auction Resource that will return a link to a JSON file you can download that will show you all the auctions for a given server. I wanted to be able to take this file and pull some useful data or format it in a way that I could easily push it into a database.
 
-For the Lothar server, the file is about  4M, so I wanted to ensure that the JSON parse I was using is fast. From Google I found [yajl-ruby](https://github.com/brianmario/yajl-ruby) which is "~1.9x faster than JSON.parse" which will help with reading the file. I also wanted to use [Redis](http://redis.io/) for this project. Redis isn't something that I have talked about a lot on the blog before but it's one of my favorite database systems. At its core it's a key-value data store but it also comes with a lot of other great features like, other data type like sets, sorted sets and hashes along with a [pubsub](http://redis.io/topics/pubsub) system. For this project I'm going to be using sets and sorted sets.
+For the Lothar server, the file is about 4M, so I wanted to ensure that the JSON parse I was using is fast. From Google I found [yajl-ruby](https://github.com/brianmario/yajl-ruby) which is "~1.9x faster than JSON.parse" which will help with reading the file. I also wanted to use [Redis](http://redis.io/) for this project. Redis isn't something that I have talked about a lot on the blog before but it's one of my favorite database systems. At its core it's a key-value data store but it also comes with a lot of other great features like, other data type like sets, sorted sets and hashes along with a [pubsub](http://redis.io/topics/pubsub) system. For this project I'm going to be using sets and sorted sets.
 
 The idea of using Redis to sort data is one I got from Eric Redmond's talk on "[A CouchDB, Neo4j, Redis, and Node.JS Circus](http://www.livestream.com/nodepdx/video?clipId=pla_84d1391f-49c6-4a54-b25a-c9c54028c93c)" from NodePDX. It's a great talk about using a nice blend of technology or a nice list of buzz words! :)
 
