@@ -1,13 +1,15 @@
---- 
+---
 layout: post
 title: "How I dropped Dropbox and Google Drive with Bitcasa"
-tags: 
+tags:
 - Bitcasa
 - Storage
 - Cloud
 author: Anthony Scotti
 email: anthony.m.scotti@gmail.com
 ---
+
+[I no longer recommend Bitcasa]({% post_url 2015-01-02-bitcasa-no-more %})
 
 ![Bitcasa](/images/bitcasa_mac.png)
 
@@ -23,7 +25,7 @@ As for my second issue, Bitcasa is different then Dropbox or Google Drive. There
 
 Just like Dropbox and Google Drive, Bitcasa has Mobile applications for both Android and iOS along with a Windows 8 application. So no matter where you are you'll have access to your Bitcasa drive.
 
-If you are using Chrome web browser, Bitcasa has a nice plugin that allows you to directly download files into your Bitcasa drive without the need to download the file to your local system. Not only is this saving your local bandwidth but I also found that Bitcasa is able to download files faster than I am. For Firefox users, They should be coming out with a plugin soon. 
+If you are using Chrome web browser, Bitcasa has a nice plugin that allows you to directly download files into your Bitcasa drive without the need to download the file to your local system. Not only is this saving your local bandwidth but I also found that Bitcasa is able to download files faster than I am. For Firefox users, They should be coming out with a plugin soon.
 
 Bitcasa is working on improving their services by adding features that users want. They seem very open to listening to there customers and providing feedback on upcoming features. This shows me that the service is evolving and not just being stagnant like other services.
 
