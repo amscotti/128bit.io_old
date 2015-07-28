@@ -35,19 +35,12 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="span10">
-                <h1 class="muted"><a href="/">128bit.io</a></br><small>2^7 bits of goodness!</small></h1>
-            </div>
-        </div>
-        <hr />
-        <div class="row">
+        <div class="row-fluid">
             <aside class="span3 hidden-phone">
-                <img class="self" src="/images/self_bw.png" alt="self" height="200" width="200">
+                <div class="widget-avatar">
+                  <img class="self" id="avatar" src="/images/amscotti.png" alt="self" height="200" width="200">
+                </div>
                 <div class="widget-content">
-                    <div><b>Anthony Scotti</b></div>
-                    <div><i>Software Engineer</i></div>
-                    <div>@ <a href="http://coeverywhere.com">CO Everywhere</a></div>
                     <div id="icons">
                         <a href="https://github.com/amscotti"><i class="icon-github-sign icon-2x"></i></a>
                         <a href="https://twitter.com/amscotti"><i class="icon-twitter-sign icon-2x"></i></a>
@@ -55,16 +48,15 @@
                         <a href="https://www.linkedin.com/in/amscotti"><i class="icon-linkedin-sign icon-2x"></i></a>
                         <a href="/feed.xml"><i class="icon-rss-sign icon-2x"></i></a>
                     </div>
+                    <div><b>Anthony Scotti</b></div>
+                    <div><i>Software Engineer</i></div>
+                    <div>@ <a href="http://coeverywhere.com">CO Everywhere</a></div>
                     <!--
                     <div id="homepage">
                         <a href="http://amscotti.com"><i class="icon-cloud"></i> amscotti.com</a>
                     </div>
                     -->
                 </div>
-                <hr>
-                <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/String" title="JavaScript String concat">
-                    <img src="/images/promotejsh.gif" alt="JavaScript String concat" height="150" width="180">
-                </a>
             </aside>
             <div class="span9" role="content">
                 {{content}}
@@ -94,17 +86,17 @@
                 {% endif %}
             </div>
         </div>
-        <footer class="row">
+        <!-- <footer class="row-fluid">
             <div class="span12">
                 <hr />
                 <div class="row">
                     <div class="span6">
-                        <!-- <p>&copy; Anthony Scotti 2014</p> -->
+                        <p>&copy; Anthony Scotti 2014</p>
                     </div>
                     <div class="span6"></div>
                 </div>
             </div>
-        </footer>
+        </footer> -->
     </div>
 
     <script>

@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: DynamoDB, Amazon's scalable NoSQL database
-tags: 
+tags:
 - AWS
 - DynamoDB
 - noSQL
@@ -31,7 +31,7 @@ For my projects that I have been using DynamoDB on, it's been a good fit and giv
 
 I'm hoping to have some code examples in another posting about using DynamoDB along with what it takes to layout tables to be able to pull data.
 
-Here are some resources links,
-*  [Webinar: Amazon Dynamo DB](http://www.youtube.com/watch?v=meBjA68DeIU&amp;feature=relmfu)
-*  [Amazon DynamoDB - What's It All About?](http://www.youtube.com/watch?v=nMhWJJACZSA&amp;feature=relmfu)
-*  [Amazon DynamoDB Developer Guide](http://www.amazon.com/Amazon-DynamoDB-Developer-Guide-ebook/dp/B007Q4JGBM)
+#### Here are some resources links:
+* [Webinar: Amazon Dynamo DB](http://www.youtube.com/watch?v=meBjA68DeIU&amp;feature=relmfu)
+* [Amazon DynamoDB - What's It All About?](http://www.youtube.com/watch?v=nMhWJJACZSA&amp;feature=relmfu)
+* [Amazon DynamoDB Developer Guide](http://www.amazon.com/Amazon-DynamoDB-Developer-Guide-ebook/dp/B007Q4JGBM)

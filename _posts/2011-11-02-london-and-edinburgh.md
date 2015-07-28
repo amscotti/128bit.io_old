@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: London and Edinburgh
-tags: 
+tags:
 - Edinburgh
 - iPad
 - London
@@ -21,7 +21,7 @@ After are time in London we hopped on to a train and when up to Edinburgh. It wa
 
 We did a lot of walking around the [Royal Mile](http://en.wikipedia.org/wiki/Royal_Mile) which is the road the leads from [Edinburgh castle](http://en.wikipedia.org/wiki/Edinburgh_Castle) and to the [Holyrood Palace](http://en.wikipedia.org/wiki/Holyrood_Palace). This is really a main hub for a lot of things like stores and tours. We did go on 2 tours, one to [the vaults](http://en.wikipedia.org/wiki/Edinburgh_Vaults) and the other to [Mary King's Close](http://en.wikipedia.org/wiki/Mary_King%27s_Close). Both there good, but I enjoyed the Mary King's Close as it was less about ghost stories and more about the history of the place.
 
-Edinburgh castle, it was fun to see a old castle and listen to the stories behind it. One of the cool things that happen here is at 1:oo PM they fire this [canon](http://www.edinburghcastle.gov.uk/index/tour/highlights/highlights-one-oclock-gun.htm), this use to be used to signal the ships in the harbor that it was 1PM for they could set their clocks to the right time. I was able to get a nice shot of this, lucky with the timing!
+Edinburgh castle, it was fun to see a old castle and listen to the stories behind it. One of the cool things that happen here is at 1:00 PM they fire this [canon](http://edinburghcastle.gov.uk/explore-the-castle/highlights/castlehighlights.aspx?start=6), this use to be used to signal the ships in the harbor that it was 1PM for they could set their clocks to the right time. I was able to get a nice shot of this, lucky with the timing!
 
 Holyrood Palace on the other end of the Royal Mile was nice, not as good as the castle but good to see anyways. It's still a fully working Palace which the royal family still uses. Very fun self audio tour you can take here that gives lot of info about that place, more then what you can just get by walking around. The views from the place are very nice and the walk through the gardens is worthwhile. In the background of the Palace is Arthur's Seat, an extinct volcano that has a elevation of 823 ft. My wife and I did hike to the top of Arthur's seat. A bit of work but not that bad, was worth it for the photos!
 

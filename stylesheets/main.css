@@ -8,17 +8,20 @@ body {
     word-spacing: 0;
 }
 
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
 #avatar {
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
 }
 
 div > article {
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
 }
 
 .container-narrow {
@@ -39,10 +42,20 @@ article > header {
 	margin-bottom: 30px;
 }
 
+.post{
+	font-size: 20px;
+	padding-bottom: 40px;
+}
+
+.postdate {
+	color: #999;
+	text-align: right;
+}
+
 .content {
 	padding-left: 10px;
 	padding-right: 10px;
-    line-height: 1.7;
+  line-height: 1.7;
 }
 
 .line-pre {
@@ -55,8 +68,16 @@ article > header {
     white-space: pre;
 }
 
+.widget-avatar {
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+}
+
 .widget-content {
-   margin-top: 20px; 
+   margin-top: 20px;
+	 color: #999;
+	 text-align: center;
 }
 
 #icons {
@@ -67,7 +88,7 @@ article > header {
 #icons a{
     text-decoration: none;
 }
-    
+
 #homepage {
     padding-bottom: 10px;
 }
