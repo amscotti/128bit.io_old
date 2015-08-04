@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: "A Sip of Elixir"
-tags: 
+tags:
 - Elixir
 - Erlang
 - Functional
@@ -42,11 +42,11 @@ In Elixir, the = doesn't refer to assignment as in other languages but it's used
 
 Being a functional programming language, Elixir treats functions as first-class citizens. Anywhere that you can declare a String you can declare a function, even if this means from within functions.
 
-To my joy, I find working with functions in Elixir very similar to what you find in JavaScript. This even includes having self executing functions. 
+To my joy, I find working with functions in Elixir very similar to what you find in JavaScript. This even includes having self executing functions.
 
 {% gist 6748991 %}
 
-**Pipe Operator |>**
+**Pipe Operator \|>**
 
 If you have worked with the Unix terminal you most likely have used | (Pipe) before. Commonly you would take the output from one command and pipe it into another. Elixir has your back and will let you do the same.
 
