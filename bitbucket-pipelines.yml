@@ -16,4 +16,7 @@ pipelines:
     master:
       - step:
           script:
+            - bundler --version
+            - bundle install
+            - bundle exec jekyll build
             - bundle exec s3_website push
