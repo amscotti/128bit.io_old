@@ -18,5 +18,6 @@ pipelines:
           script:
             - bundler --version
             - bundle install
+            - gem install therubyracer
             - bundle exec jekyll build
-            - bundle exec s3_website push
+            #- bundle exec s3_website push
