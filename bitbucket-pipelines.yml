@@ -19,5 +19,5 @@ pipelines:
             - bundler --version
             - bundle install
             - bundle exec jekyll build
-            - apt-get install --assume-yes openjdk-7-jre
+            - apt-get install --assume-yes openjdk-7-jre-headless
             - bundle exec s3_website push
