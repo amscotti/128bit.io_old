@@ -4,7 +4,7 @@ MAINTAINER Anthony Scotti <anthony.m.scotti@gmail.com>
 # Install base packages
 RUN apk update
 RUN apk upgrade
-RUN apk add curl bash build-base libffi-dev
+RUN apk add curl ca-certificates bash build-base libffi-dev
 
 # Install ruby and ruby-bundler
 RUN apk add ruby ruby-dev ruby-io-console ruby-bundler
