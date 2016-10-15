@@ -3,22 +3,16 @@
 # Only use spaces to indent your .yml configuration.
 # -----
 # You can specify a custom docker image from Docker Hub as your build environment.
-image: ruby:2.1.7
+image: amscotti/jekyll-build
 
 pipelines:
   default:
     - step:
         script:
-          - bundler --version
-          - bundle install
           - bundle exec jekyll build
   branches:
     master:
       - step:
           script:
-            - bundler --version
-            - bundle install
             - bundle exec jekyll build
-            - apt-get update
-            - apt-get install --assume-yes openjdk-7-jre-headless
             - bundle exec s3_website push
