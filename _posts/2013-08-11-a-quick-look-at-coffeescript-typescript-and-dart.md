@@ -79,17 +79,17 @@ Each language has their own unique features that they add to assist with develop
 
 ### Resources
 
-**CoffeeScript**
+#### CoffeeScript
 * [CoffeeScript Home Page](http://coffeescript.org)
 * [The Absolute Beginner’s Guide to CoffeeScript](http://blog.teamtreehouse.com/the-absolute-beginners-guide-to-coffeescript)
 * ['Meet CoffeeScript' Video from PeepCode](https://peepcode.com/products/coffeescript)
 
-**TypeScript**
+#### TypeScript
 * [TypeScript Home Page](http://www.typescriptlang.org)
 * [TypeScript Definitions](http://www.tsdpm.com)
 * [TypeScript: Application-Scale JavaScript](http://channel9.msdn.com/Events/Build/2013/3-314?utm_source=javascriptweekly&utm_medium=email)
 
-**Dart**
+#### Dart
 * [Dart Home Page](http://www.dartlang.org/)
 * [Introducing Dart](http://www.youtube.com/watch?v=5KlnlCq2M5Q)
 * [Dart in Action by Chris Buckett](http://www.manning.com/buckett)
