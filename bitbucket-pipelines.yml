@@ -1,11 +1,13 @@
-# This is a sample build configuration for Ruby.
-# Check our guides at https://confluence.atlassian.com/x/VYk8Lw for more examples.
-# Only use spaces to indent your .yml configuration.
-# -----
-# You can specify a custom docker image from Docker Hub as your build environment.
+---
 image: amscotti/jekyll-build
 
 pipelines:
+  custom:
+    update-s3:
+      - step:
+        script:
+          - bundle exec jekyll build
+           - bundle exec s3_website push
   default:
     - step:
         script:
